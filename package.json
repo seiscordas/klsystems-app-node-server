@@ -1,8 +1,8 @@
 {
-  "name": "klsystems-app-node-server",
+  "name": "cardanoserver_",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "Server.js",
   "dependencies": {
     "express": "^4.17.1",
     "shortid": "^2.2.16",
