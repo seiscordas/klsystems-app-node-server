@@ -1,6 +1,16 @@
+const express = require('express');
+
 var port = process.env.PORT || 3000,
     io = require('socket.io')(port),
     gameSocket = null;
+
+    app = express();
+
+    app.get("/", function(req, res){
+        res.send("Server Kleber Mart: " + port);
+    });
+
+    console.log(`App rodando na porta: ${port}`);
 
     var clientLookup = {};
 
