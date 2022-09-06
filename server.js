@@ -2,6 +2,8 @@ var port = process.env.PORT || 3000,
     io = require('socket.io')(port),
     gameSocket = null;
 
+console.info(`App rodando na porta: ${port}`);
+
     var clientLookup = {};
 
     var current_player;
